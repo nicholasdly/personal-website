@@ -5,14 +5,13 @@ export default [
         title: "Bachelor's Degree in Computer Science",
         duration: '4 years',
         details:
-            "Eager to fuel my passion for computer programming, I enrolled into Michigan\
-            State University's computer science program. I learned about computer theory,\
-            architecture, algorithms and data structures, and aspects of mobile and web\
-            development. I even participated in hackathons and the MSU Artificial\
-            Intelligence club."
+            "After four years, I graduated with my bachelor's degree. I've learned a lot\
+            about computer theory, architecture, algorithms and data structures, and aspects\
+            of mobile and web development. I got to connect with amazing people, and even\
+            participated in hackathons and the MSU Artificial Intelligence club."
     },
     {
-        year: 'Today',
+        year: '2022',
         title: "AIDED Undergraduate Software Engineer",
         duration: '1 year',
         details:
@@ -21,6 +20,15 @@ export default [
             NASA. I developed the backend of the drone's mission manager, the drone's\
             pathfinding algorithm using Google Maps API data, and helped create the team's\
             website."
+    },
+    {
+        year: '2019',
+        title: 'Arrival at Michigan State University',
+        duration: '',
+        details:
+            "Eager to fuel my passion for computer programming, I enrolled into Michigan\
+            State University's computer science program. The journey had just started, and\
+            it started with Python and C++."
     },
     {
         year: '2015',

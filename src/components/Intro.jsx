@@ -21,10 +21,10 @@ export default function Intro() {
                     href='https://www.ostusa.com/'
                     target='_blank'
                     rel='noreferrer noopener'>OST</a>
-                {} web development intern! Whether its professional or personal, I
+                {} web development intern! Whether it's professional or personal, I
                 love surrounding myself with great people who I can learn and collaborate with.
                 I'm passionate about expanding my skillset, and I'm driven to make my mark on the
-                digital world through my work.
+                world through my work.
             </p>
         </div>
     )
