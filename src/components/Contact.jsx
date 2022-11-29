@@ -23,7 +23,7 @@ export default function Contact() {
                         name='message'
                         placeholder='Message'
                         rows='10' />
-                    <button className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-pink-500 to-blue-500 drop-shadow-md duration-300 hover:scale-110 active:scale-100'>
+                    <button className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-pink-500 to-blue-500 dark:to-orange-500 drop-shadow-md duration-300 hover:scale-110 active:scale-100'>
                         Send
                     </button>
 
