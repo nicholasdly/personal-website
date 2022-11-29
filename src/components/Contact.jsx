@@ -4,7 +4,7 @@ import Title from './Title';
 
 export default function Contact() {
     return (
-        <div className='flex flex-col mb-10 mx-auto'>
+        <div className='flex flex-col mb-10 mx-auto drop-shadow-sm'>
             <div className='flex justify-center items-center'>
                 <form className='flex flex-col w-full md:w-7/12'
                     action='https://getform.io/f/4722bfa8-d59f-46f9-82db-2dddf6621b7f'
@@ -23,9 +23,9 @@ export default function Contact() {
                         name='message'
                         placeholder='Message'
                         rows='10' />
-                    <button className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md'
+                    <button className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-pink-500 to-blue-500 drop-shadow-md duration-300 hover:scale-110 active:scale-100'
                         type='button'>
-                        Work With Me
+                        Send
                     </button>
 
                 </form>

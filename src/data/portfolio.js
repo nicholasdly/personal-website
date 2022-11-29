@@ -11,11 +11,5 @@ export default [
         imgURL: 'assets/aided.png',
         techstack: ['React', 'Tailwind', 'NEXT.js'],
         link: 'https://msuaided.com/'
-    },
-    {
-        title: 'Personal Website',
-        imgURL: 'assets/missing.png',
-        techstack: ['React', 'Tailwind', 'Vite'],
-        link: 'https://nicholasly.com/'
     }
 ]

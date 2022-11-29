@@ -7,16 +7,7 @@ import Footer from './components/Footer';
 
 export default function App() {
 
-  const [theme, setTheme] = useState(null);  // Website theme
-
-  // Sets initial theme to device theme preference
-  useEffect(() => {
-    if (window.matchMedia('(prefers-color-schema: dark)').matches) {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  }, []);
+  const [theme, setTheme] = useState('light');  // Website theme
 
   // Switches theme
   const handleThemeSwitch = () => {
@@ -76,7 +67,7 @@ export default function App() {
         {theme === 'dark' ? sun : moon}
       </button>
 
-      <div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
+      <div className='bg-neutral-50 dark:bg-neutral-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter transition duration-300'>
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
           <Portfolio />

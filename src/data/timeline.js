@@ -1,14 +1,7 @@
 
 export default [
     {
-        year: 'Upcoming',
-        title: 'OST Web Developer Internship',
-        duration: '3 months',
-        details:
-            'To be continued...'
-    },
-    {
-        year: 'Upcoming',
+        year: '2023',
         title: "Bachelor's Degree in Computer Science",
         duration: '4 years',
         details:
@@ -32,7 +25,7 @@ export default [
     {
         year: '2015',
         title: 'First Line of Code',
-        duration: 'the beginning',
+        duration: '',
         details:
             'As a curious ninth grader, I enrolled into my first computer programming course.\
             I learned about primitive and foundational computer behavior, and even the basics\
