@@ -9,6 +9,15 @@ export default function App() {
 
   const [theme, setTheme] = useState('light');  // Website theme
 
+  // Sets initial theme to device theme preference
+  useEffect(() => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }, []);
+
   // Switches theme
   const handleThemeSwitch = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
