@@ -7,7 +7,7 @@ export default function PortfolioItem({ title, imgURL, techstack, link }) {
             href={link}
             target='_blank'
             rel='noreferrer noopener'>
-            <img className='w-full h-36 md:h-48 object-cover cursor-pointer'
+            <img className='w-full h-48 md:h-48 object-cover cursor-pointer'
                 src={imgURL}
                 alt='Portfolio Item Image' />
             <div className='w-full p-4'>

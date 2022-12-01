@@ -1,7 +1,16 @@
 
 export default [
     {
-        year: '2023',
+        year: 'Upcoming',
+        title: 'OST Web Developer Intern',
+        duration: '',
+        details:
+            "I'm excited to share that I have accepted at offer at Open System Technologies\
+            as a web developer intern, where my journey will continue! I am incredibly excited\
+            to grow not only as a developer, but as a creative thinker and a professional."
+    },
+    {
+        year: 'Upcoming',
         title: "Bachelor's Degree in Computer Science",
         duration: '4 years',
         details:
@@ -11,15 +20,14 @@ export default [
             participated in hackathons and the MSU Artificial Intelligence club."
     },
     {
-        year: '2022',
+        year: 'Today',
         title: "AIDED Undergraduate Software Engineer",
         duration: '1 year',
         details:
             "I joined a small team of passionate engineering students to reimagine last mile\
-            delivery using drones that utilized public transit buses under a grant from\
-            NASA. I developed the backend of the drone's mission manager, the drone's\
-            pathfinding algorithm using Google Maps API data, and helped create the team's\
-            website."
+            delivery using drones that utilized public transit buses. Funded by a grant from\
+            NASA, I worked on the backend of the drone's mission manager, the drone's\
+            pathfinding algorithm using Google Maps API data, and the team's website."
     },
     {
         year: '2019',
@@ -27,8 +35,8 @@ export default [
         duration: '',
         details:
             "Eager to fuel my passion for computer programming, I enrolled into Michigan\
-            State University's computer science program. The journey had just started, and\
-            it started with Python and C++."
+            State University's computer science program. Finally being introduced to other\
+            languages like Python and C++, the real journey had just started."
     },
     {
         year: '2015',

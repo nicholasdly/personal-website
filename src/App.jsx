@@ -76,7 +76,7 @@ export default function App() {
         {theme === 'dark' ? sun : moon}
       </button>
 
-      <div className='bg-neutral-50 dark:bg-neutral-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter transition duration-300'>
+      <div className='bg-neutral-50 dark:bg-black text-stone-900 dark:text-stone-300 min-h-screen font-inter transition duration-300'>
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
           <Portfolio />

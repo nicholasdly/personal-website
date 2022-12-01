@@ -3,7 +3,7 @@ export default [
     {
         title: 'Tomatera',
         imgURL: 'assets/tomatera.png',
-        techstack: ['React', 'CSS', 'JavaScript'],
+        techstack: ['React', 'Tailwind', 'Vite'],
         link: 'https://tomatera.dev/'
     },
     {
