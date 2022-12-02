@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/assets/logo.png" width="100"></img>
+  <img src="public/logo.png" width="100"></img>
 </p>
 <h3 align="center">This is my personal website's repo!</h3>
 <p align="center">
