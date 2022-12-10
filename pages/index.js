@@ -1,8 +1,9 @@
-import Navigation from "../components/Navigation"
+import Navigation from "../components/Navigation";
+import Background from "../components/Background";
 
 export default function Home() {
   return (
-    <div className="w-[calc(100vw_-_80px)] h-[calc(100vh_-_80px)] translate-x-[40px] translate-y-[40px] outline outline-2 text-blue-900 min-w-fit">
+    <div className="w-screen h-screen min-w-fit">
       <Navigation />
       <p className="w-[228px] text-[20px] text-right absolute bottom-[30px] right-[30px]">
         As a recent graduate, I believe software development should be inspiring and

@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Navigation() {
     return (
-        <div className="p-[30px]">
-            <h1 className="text-[64px] h-[80px]">Nicholas Ly</h1>
-            <h3 className="text-[16px] mb-[30px]">Software Engineer & Web Developer</h3>
-            <div className="text-[20px]">
+        <div className="absolute top-[30px] left-[30px]">
+            <h1 className="text-[48px] md:text-[64px] h-[68px] md:h-[80px] duration-100">Nicholas Ly</h1>
+            <h3 className="text-[16px] mb-[30px] duration-100">Software Engineer & Web Developer</h3>
+            <div className="w-fit text-[20px]">
                 <Link href="/">
                     <p className="duration-100 hover:font-bold">Home</p>
                 </Link>
