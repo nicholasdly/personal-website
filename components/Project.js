@@ -1,7 +1,7 @@
 
 export default function Project({ title, desc, link }) {
     return (
-        <div className="text-right">
+        <div className="text-right drop-shadow-md">
             <p className="text-[48px] md:text-[64px] h-[68px] md:h-[80px] duration-100 hover:font-bold">
                 <a href={link} target='_blank' rel='noreferrer noopener'>{title}</a>
             </p>

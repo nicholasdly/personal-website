@@ -1,7 +1,7 @@
 
 export default function Background() {
     return (
-        <div className="absolute w-screen h-screen overflow-hidden">
+        <div className="absolute w-screen h-screen">
             {/* Effects under navigation */}
             <div className="bg-[#A9E5BB] m-3 absolute w-64 h-64 rounded-full top-44 mix-blend-multiply filter blur-3xl opacity-80 animate-bubbleDown animation-delay-4000" />
             <div className="bg-[#F7B32B] m-3 absolute w-64 h-64 rounded-full left-44 mix-blend-multiply filter blur-3xl opacity-80 animate-bubbleDown" />
